@@ -9,9 +9,56 @@ main {
 }
 
 .part1{
-    width: 30vw;
+    width: 35vw;
     height: 100vh;
     display: flex;
-    background-color: antiquewhite;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    background-color: #FFFFFF;
 
+}
+.content1{
+    width: 75%;
+    height: 70%;
+    background-color: #3A2DB0;
+}
+.content1 img{
+    width: 40px;
+    padding: 25px;
+}
+.menu {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+.menu p {
+    width: fit-content;
+    color: #e4e4e4;
+    font-weight: 100;
+    border-radius: 5px;
+    margin-left: 15px ;
+    margin-bottom: 10px;
+    padding: 10px 25px 10px 10px;
+}
+.menu p:hover{
+    background-color: #5b4fcd9f;
+}
+.part2{
+    width: 65vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: #3A2DB0;
+}
+.content2{
+    width: 90%;
+    height: 70%;
+    background-color: #FFFFFF;
 }
