@@ -101,7 +101,7 @@ main {
     z-index: 3;
 }
 .content2{
-    width: 90%;
+    width: 85%;
     height: 70%;
     display: flex;
     flex-direction: column;
@@ -132,7 +132,8 @@ main {
     display: flex;
     flex-direction:row;
     padding-inline: 40px;
-    background-color: #0FD699; /* just to new wr i*/
+    padding-top: 12px;
+    /* background-color: #0FD699; just to new wr i */
     box-sizing: border-box;
 }
 .main .labl, .about2{
@@ -140,8 +141,52 @@ main {
     height: 100%;
 }
 .labl{
-    border: none;
     display: flex;
     flex-direction: column;
     align-items: start;
 }
+.labl input{
+    width: 80%;
+    height: 10%;
+    border:none;
+    padding: 10px  0  5px 20px;
+    margin-bottom: 3%;
+    border-bottom: rgba(123, 120, 120, 0.532) solid 0.5px;
+}
+.labl input:focus{
+    outline: none;
+    border-color: #0FD699;
+}
+.labl .text{
+    margin: 0;
+    padding-bottom: 30%;
+}
+.labl p{
+    color: #3A2DB0;
+    font-weight: bold;
+    padding: 30px 20px ;
+}
+.labl p:active{
+     color: #3a2db078;
+     cursor: pointer;
+}
+.about2{
+    display: flex;
+    flex-direction: column;
+}
+.about2 p:nth-of-type(1), .about2 p:nth-of-type(2){
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.about2 p:nth-of-type(3){
+    color: rgb(144, 144, 136);
+    font-size: 0.9rem;
+    padding-block: 20px;
+}
+.about2 p:nth-of-type(4), p:nth-of-type(5){
+    color: #3A2DB0;
+    font-size: 0.9rem;
+    font-weight: 100;
+    padding-bottom: 15px;
+}
+ 
