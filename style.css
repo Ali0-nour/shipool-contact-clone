@@ -190,3 +190,47 @@ main {
     padding-bottom: 15px;
 }
  
+@media (max-width:1000px) {
+    .sircle{
+        z-index: 3;
+        left: 90vw;
+        top: 15vw;
+        position: fixed;
+    }
+    .content1{
+        width: 80%;
+    }
+}
+@media (max-width:700px) {
+    main{
+        flex-direction: column;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .part1{
+        width: 100%;
+        height: fit-content;
+        align-items: center;
+    }
+    .part2{
+        width: 100%;
+        align-items: center;
+    }
+    .content1{
+        width: 100%;
+    }
+    .content2{
+        width: 90%;
+        height: 90vh;
+        align-items: center;
+    }
+
+    .hello, .main{
+        align-items: center;
+        padding: 0;
+    }
+    .labl{
+        padding-bottom: 25px;
+    }
+}
